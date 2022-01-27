@@ -1,0 +1,8 @@
+minnie 3
+
+pippo 2
+
+pluto 1
+
+zio 1
+

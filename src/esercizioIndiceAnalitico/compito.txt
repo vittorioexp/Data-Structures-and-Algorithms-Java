@@ -1,0 +1,42 @@
+ Fondamenti di informatica – canale 4 – 29/06/2017
+
+Indice analitico
+
+Scrivere una classe CognomeMatricola.java che permetta di ottenere l'indice analitico di un
+testo diviso in righe, ciascuna riga composta da parole. 
+L'indice analitico di un testo è costituito dall'elenco (in ordine alfabetico) delle parole del
+testo, ciascuna seguita dalla lista dei numeri delle righe in cui la parola compare. Una
+parola è definita come una sequenza di caratteri alfabetici separata da spazi e caratteri non
+alfabetici di interpunzione e numerici. In questo esercizio, per convenzione, nell'indice non
+andranno inserite le parole di uno, due o tre caratteri. Per chiarezza, come esempio di indice
+analitico si consideri il file indice.txt in cui è riportato l'indice analitico del testo del
+compito (compito.txt).
+L'applicazione realizzata dovrà leggere il file di cui si vuole generare l'indice analitico
+dall'ingresso standard e scrivere l'indice sull'uscita standard, utilizzando il reindirizzamento
+dell'ingresso e dell'uscita standard.
+
+Per la soluzione si suggerisce di costruire un dizionario di coppie <parola, lista di interi>
+nel quale parola sia utilizzata come chiave. Per generare il dizionario si dovranno estrarre
+dal testo le parole, una alla volta, tenendo conto del numero della riga corrente. Se la 
+parola non è presente nel dizionario si dovrà inserire nel dizionario una nuova coppia con
+una lista che contiene il numero della riga corrente. Se la parola è già presente basterà
+aggiungere, in coda alla lista associata alla parola, il nuovo numero della riga corrente.
+Nella soluzione del compito non è consentito fare uso delle classi di java.util quali
+Dictionary, HashMap, HashSet, Hashtable, LinkedHashMap, TreeMap, ecc. 
+
+Terminata l'elaborazione del testo in ingresso si dovra' procedere alla stampa del contenuto
+del dizionario. 
+
+Al termine della prova il candidato dovrà lasciare nella sua home i file:
+- CognomeMatricola.java  l'applicazione per la generazione dell'indice analitico.
+- Ogni altra classe necessaria alla soluzione del problema.
+
+Ogni file .java prodotto dal candidato dovrà contenere come prima riga un 
+commento con cognome e nome del candidato, numero di matricola, numero 
+della postazione di lavoro, data.
+
+Gli elaborati prodotti dai candidati verranno provati con i seguenti comandi
+
+$ rm *.class
+$ javac CognomeMatricola.java
+$ java CognomeMatricola <filediprova >risultato

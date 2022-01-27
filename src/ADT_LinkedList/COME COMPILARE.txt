@@ -1,0 +1,2 @@
+javac ADT_LinkedList.java
+java ADT_LinkedList <input.txt

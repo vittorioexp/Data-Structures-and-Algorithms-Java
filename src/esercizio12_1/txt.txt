@@ -1,0 +1,22 @@
+cba abc a
+cba acd aa
+abc acd ba
+cba abc z
+cba abc a a
+cba abc b
+
+cba a b c d
+cba a bbb
+cba a bbb
+cba a bbc
+cba a bba
+
+a b c d
+ba
+ab
+abc
+ab a
+ab b
+bb
+
+

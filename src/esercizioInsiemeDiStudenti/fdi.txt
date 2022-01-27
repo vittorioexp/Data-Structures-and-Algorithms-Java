@@ -1,0 +1,5 @@
+111111	Rossi	Mario
+123456	Verdi 	Maria
+654321	Gialli	Giovanni
+222222	Bianchi	Giovanna
+444444	Azzurri	Francesca
